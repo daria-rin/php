@@ -2,3 +2,59 @@
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+
+#firstModal     {
+    display: block;
+}
+
+#secondModal  {
+    display: none;
+}
+
+.modal-header, .modal-body, .modal-footer    {
+    justify-content: center;
+}
+
+#modalTextBody  {
+    padding-left: 10px;
+}
+
+.container {
+    display: none;
+}
+
+#btnLess, #btnOver, #modalBtnNext, #modalBtnStart {
+    background-color: rgb(21, 129, 201);
+    color: #ffffff;
+    border: 1px solid rgb(21, 129, 201);
+}
+#btnLess:hover, #btnOver:hover, #modalBtnNext:hover, #modalBtnStart:hover {
+    box-shadow: inset 0 0 15px rgb(12, 73, 113);
+    outline: none;
+}
+
+#btnEqual   {
+    background-color: rgb(21, 201, 21);
+    border: 1px solid rgb(21, 201, 21);
+    outline: none;
+}
+#btnEqual:hover {
+    box-shadow: inset 0 0 15px rgb(12, 108, 12);
+    outline: none;
+}
+
+.card-header, .modal-header    {
+    color: #000000;
+}
+
+#answerField, .modal-body    {
+    color: #000000;
+}
+
+#btnRetry   {
+    color: rgb(21, 129, 201);
+}
+
+.card-header, .modal-header, .card-footer, .modal-footer {
+    background-color: #ebf5faaa;
+}
